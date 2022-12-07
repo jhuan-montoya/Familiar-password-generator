@@ -1,0 +1,15 @@
+.redf {
+  background-color: #84878f;
+  border: none;
+  margin-left: 0.5em;
+}
+.redf:hover {
+  background-color: #5d88fd;
+}
+
+
+#next, #send, #again {
+  width: 40%;
+  border: none;
+}
+
