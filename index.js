@@ -4,12 +4,10 @@ const port = 3000
 const path = require('path');
 const bodyParser = require('body-parser');
 
-// make all the files in 'public' available on the Web
 app.use(express.static("public"));
-// a module that gets json out of the request body; not needed yet, but very useful!
+
 app.use(express.json());
 
-// gets text out of the HTTP body and into req.body
 app.use(bodyParser.text());
 
 app.listen(3000, () =>
