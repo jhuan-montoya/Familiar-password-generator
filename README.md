@@ -10,6 +10,8 @@ Made in a 100% self-taught way.
 
 API USAGE:
 
+BODY:
+
 {
   "part1": "word",
   "part2": "word",
